@@ -1,0 +1,49 @@
+.photos{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#man{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#woman{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#heart{
+    width: 50px;
+    height: 50px;
+}
+
+.special-day{
+    display: flex;
+    justify-content: space-between; /*자식들이 양끝으로스페셜데이 아래 p태그나 [수평상태 정렬(가로)]*/
+}
+
+.title{
+    display: flex;
+    align-items: center;/*수직정렬(세로)*/
+}
+
+.days-left{
+    text-align: left;
+}
+
+.date{
+    color:#a0a0a0;
+}
+
+p{
+    margin-bottom: 1px;
+}
